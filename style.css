@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('imagens/89781.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;;
+
+}
+.foto {
+    border: 5px solid #333;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: wheat;
+
+    
+}
+.titulo { 
+    text-align:center;
+    width: 80%;
+    color: white 
+  
+}
+  .subtitulo {
+    text-align: left;
+    width: 200px;
+    padding: 5px;
+    margin: 0;
+    border-radius: 8px;
+    color: rgb(233, 226, 226); 
+    
+    
+    }
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: #f8fcf9;
+}
+ul {
+    color: #fcf9f9;
+}
+a {
+    color: rgb(20, 11, 100);
+    text-decoration: none;
+}
