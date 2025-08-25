@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-image: url('imagens/89781.jpg');
+    background-image: url('imagens/pexels-tima-miroshnichenko-5380651.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;;
@@ -15,10 +15,32 @@ body {
 
     
 }
+.card.esquerda {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(223, 8, 8, 0.2);
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+}
 .titulo { 
     text-align:center;
     width: 80%;
     color: white 
+
   
 }
   .subtitulo {
