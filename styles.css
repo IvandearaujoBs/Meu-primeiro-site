@@ -31,10 +31,17 @@ html {
 }
 
 .nome {
+  display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
     color: rgb(233, 233, 240);
     text-shadow: 1px 2px 3px #110101;
+    background-color: #bbbbbb4f;
+    padding: 10px 4 10;
+    border-radius: 15px;
+    justify-content: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .menu {
