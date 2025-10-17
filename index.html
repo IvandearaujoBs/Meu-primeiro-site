@@ -1,127 +1,82 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivan de Araujo</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="imagens/IMG_20220819_120959_880.jpg" type="image/x-icon">
+    <title>Minha Pagina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="main-with-header">
-        <h1 class="nome">Ivan de Araujo</h1>
-        <nav class="menu">
+            <div class="navigation">
+            <a href="">Inicio</a>
+            <a href="">projetos</a>
+            <a href="">Contato</a>
+        </div>
+        
+    <div class="container-left">
+         <div class="foto">
+            <img src="imagens/foto perfil.jpg" alt="" width="120px" class="foto-perfil">
+
+            <div class="nome">
+              <h2>Ivanildo dos Santos</h2>
+            </div>
+
+            <div class="stack">
+              <p>Desenvolvedor Web</p>
+            </div>
+            <hr class="linha">
+        </div>
+        <div class="contatos">
             <ul>
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#tecnologias">Tecnologias</a></li>
-                <li><a href="index2.html" target="_blank">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li id="text"> <img src="icons/icons8-linkedin-48.png" alt="linkedin" width="40px" class="contato">
+                    Linkedin</li>
+
+
+                <li id="text"><img src="icons/icons8-github-48.png" alt="github" width="40px" class="contato">
+                    Github</li>
+
+
+                <li id="text"><img src="icons/icons8-instagram-logo-48.png" alt="instagram" width="40px" class="contato">
+                    Instagram</li>
+
+
+                <li id="text"> <img src="icons/icons8-facebook-novo-48.png" alt="facebook" width="40px" class="contato">
+                    Facebook</li>
             </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section class="perfil">
-            <img src="imagens/IMG_20220819_120959_880.jpg" alt="foto de perfil" class="foto-perfil">
-        </section>
-
-        <section id="inicio" class="apresentacao">
-            <h2>BEM-VINDO</h2>
-            <p>Este site é meu espaço para compartilhar aprendizados, ideias e experiências enquanto cresço na área. Se você também está nessa jornada ou quer trocar conhecimento, seja bem-vindo!</p>
-        </section>
-
-        <section id="sobre" class="sobre-mim">
-            <h3>SOBRE MIM</h3>
-            <p>👋 Oi! Eu sou Ivan — estudante, desenvolvedor em formação e curioso incansável por tudo que envolve tecnologia. Minha jornada começou com uma pergunta simples: como isso funciona? Desde então, mergulhei no mundo da programação, buscando entender o que acontece por trás das telas e como ideias viram código. 📚 Ainda estou construindo minha trajetória acadêmica, explorando conceitos, linguagens e ferramentas que me ajudam a transformar curiosidade em conhecimento. Não venho de grandes laboratórios ou publicações científicas — meu caminho é feito de estudo, prática e muita vontade de aprender. 💻 Embora eu ainda não tenha atuado profissionalmente, já desenvolvi projetos pessoais e estudo constantemente para aprimorar minhas habilidades. Gosto de pensar que cada linha de código que escrevo é um passo a mais na direção de me tornar um desenvolvedor completo — alguém que não só entende a tecnologia, mas sabe usá-la com propósito. 🌱 Este site é meu espaço para compartilhar aprendizados, ideias e experiências enquanto cresço na área. Se você também está nessa jornada ou quer trocar conhecimento, seja bem-vindo!</p>
-        </section>
-
-        <section id="tecnologias" class="tecnologias">
-            <h2 class="cabeca">TECNOLOGIAS</h2>
-            <div class="tecnologias-conteiner">
-                <div class="tecnologia-item">
-                    <img src="imagens/HTML5_logo_and_wordmark.svg" alt="html" height="50">
-                    <p>HTML5</p>
-                </div>
-                <div class="tecnologia-item">
-                    <img src="imagens/pngwing.com.png" alt="css" height="50">
-                    <p>CSS</p>
-                </div>
-                <div class="tecnologia-item">
-                    <img src="icons/javascript.png" alt="JavaScript">
-                    <p>JAVASCRIPT</p>
-                </div>
-                <div class="tecnologia-item">
-                    <img src="icons/python-logo.png" alt="python">
-                    <p>PYTHON</p>
-                </div>
-                <div class="tecnologia-item">
-                    <img src="icons/react-javascript.png" alt="react">
-                    <p>REACT</p>
-                </div>
-                <div class="tecnologia-item">
-                    <img src="icons/node-js.png" alt="node">
-                    <p>NODE</p>
-                </div>
-                <div class="tecnologia-item">
-                    <img src="icons/linux.png" alt="linux">
-                    <p>LINUX</p>
-                </div>
-                <div class="tecnologia-item">
-                    <img src="icons/microsoft-sql.png" alt="sql">
-                    <p>SQL</p>
-                </div>
-                <div class="tecnologia-item">
-                    <img src="icons/mysql.png" alt="mysql">
-                    <p>MYSQL</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="projetos" class="projetos">
-            <a href="index2.html" target="_blank">
-                <h2>PROJETOS</h2>
-            </a>
-        </section>
-
-        <section id="contato" class="contato">
-            <h2 class="contato-titulo">CONTATO</h2>
-            <div class="container-aplicativos">
-                <div class="aplicativos">
-                    <a href="https://www.instagram.com/user.dev.xs/" target="_blank">Instagram</a>
-                </div>
-                <div class="aplicativos">
-                    <a href="https://www.facebook.com/ivaN.de.araUjoh/" target="_blank">Facebook</a>
-                </div>
-                <div class="aplicativos">
-                    <a href="https://www.linkedin.com/in/ivan-de-araújo-48382a330/" target="_blank">LinkedIn</a>
-                </div>
-                <div class="aplicativos">
-                    <a href="https://github.com/IvandearaujoBs" target="_blank">Github</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-col">
-                <h3>Ivan Projetos</h3>
-                <p>Desenvolvendo soluções criativas e funcionais para web.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Contato</h4>
-                <p>Email: <a href="https://mail.google.com/mail/u/2/" target="_blank">contato:ivandearaujodev@gmail.com</a></p>
-                <p>Parnaíba - PI, Brasil</p>
-            </div>
-            <div class="footer-col">
-                <h4>Links úteis</h4>
-                <p><a href="/politica-de-privacidade.html" target="_blank">Política de Privacidade</a></p>
-                <p><a href="/sobre.html">Sobre</a></p>
-            </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Ivan Projetos. Todos os direitos reservados.</p>
+    </div>
+
+    <div class="container-right">
+    <h1>Sobre mim</h1>
+
+    <hr class="linha1">
+    <div class="about">
+       
+        <p>
+            Sou estudante de Sistemas de Computação na Universidade Estadual do Piauí (UESPI) e tenho grande interesse na área de tecnologia, em especial no desenvolvimento web. Gosto de criar soluções práticas e criativas, sempre buscando melhorar minhas habilidades e aprender novas ferramentas que possam agregar aos meus projetos. Meu objetivo é evoluir como desenvolvedor e construir aplicações que unam funcionalidade e uma boa experiência para o usuário.
+        </p>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-iten">
+            <p>designer web</p>
+            <p>projetos</p>
+            <p>tecnologies</p>
+            <p>certificaçoes</p>
+            <p>idiomas</p>
+            <p>atividades</p>
         </div>
-    </footer>
+
+    </div> 
+       <footer>
+    todos os direitos reservados
+   </footer>
+    </div>
+
 </body>
 </html>
